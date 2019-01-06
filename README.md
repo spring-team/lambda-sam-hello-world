@@ -14,6 +14,7 @@ sam deploy --template-file packaged-template.yml --stack-name $STACK_NAME --capa
 ```
 
 `sam deploy` is an alias for a cloud formation command. See docs. Use `--s3prefix`
+It exits without error if no change has been made via a new package call.
 
 ```
 aws cloudformation describe-stacks
