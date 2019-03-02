@@ -7,3 +7,4 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs8.10
+      FunctionName: HelloWorldFunction
